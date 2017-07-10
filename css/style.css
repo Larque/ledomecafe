@@ -1,0 +1,531 @@
+/*style sheet for final*/
+
+/*---universal---*/
+
+
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+html {
+	margin: auto;
+    padding: 0;
+}
+
+#logo {
+    background-image: url(../img/logo1.png);
+    background-size: contain;
+    height: 100px;
+    width: inherit;
+    margin: 8px 0 0 15px; 
+    position: relative;
+    op: 10px;
+    background-repeat: no-repeat;
+    z-index: 999;
+}
+
+.logoName {
+    font-family: 'Lobster', cursive;
+	font-size: 25px;
+	color: orange;
+	letter-spacing: 10px;
+	text-align: center;
+	z-index: 1003;
+	position: absolute;
+	opacity: 1; 
+    height: 45px;
+    min-width: 300px;
+    width: 300px;
+   
+    top: 10px;
+    margin: 0 0 0 100px;
+    padding: 0;
+    
+    
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+	font-size: 100px;
+	font-weight: 800;
+	color: #fff;
+	padding: 0 0 0 0;
+   text-align: center;
+    margin: auto;
+    
+}
+
+
+/*---index---*/
+
+div.name {
+	font-family: 'Lobster', cursive;
+	font-size: 120px;
+	color:  orange;
+    text-shadow: 5px 7px #d7ddd1;
+	letter-spacing: 20px;
+	text-align: center;
+	z-index: 1000;
+	position: relative;
+	opacity: 0;
+	ont-family: 'Frijole', cursive;
+    top: 0px;
+    background-image: url(../img/pot2.png);
+   background-repeat: no-repeat;
+    background-position: center center;
+    height: 1020px;
+    margin: 0 0 0 0;
+    width: 100%;
+
+}
+.container:hover .home1_1 {
+    opacity: .4;
+    background-color: red;
+    transition: 5s ease;
+}
+
+.home1_1 div.title {
+    font-family: 'Lobster', cursive;
+	font-size: 190px;
+    text-align: center;
+    color: orange;
+    margin: 0;
+    padding: 110px 0 0 0;
+   
+}
+
+.container:hover div.name {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+  
+    
+}
+
+
+.container:hover .overlay {
+    opacity: 1;
+  
+    height: 100%;
+    ackground-clip:border-box;
+    
+    
+}
+
+.overlay {
+    position: absolute;
+    opacity: 0;
+    ackground-image: url(../img/waterColor.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: 2s ease;
+    background-position: center center;
+    background-clip:border-box;
+    z-index: .7;
+}
+
+
+
+body div.home1 {
+	background-image: url(../img/beans_bkgd_01.jpg);
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	ackground-size: cover;
+	margin: 0;
+	padding: 0;
+	background-position: center center;
+	ackground-repeat: no-repeat;
+	background-color: red;
+} 
+
+.home1_1 {
+	background-image: url(../img/dome.1.png), url(../img/dome1.png), url(../img/waterColor.jpg);
+	background-position: relative;
+    background-position: center center;
+	background-repeat: no-repeat;
+	min-width: 600px;
+	height: 130vh;
+	margin: 50px 10% 0 10%;
+	adding: 160px;
+	background-color: rgba(155, 155,155, .5);
+	background-attachment: fixed;
+	text-align: center;
+	ackground-color: orange;
+    opacity: 1;
+	    transition: 5s ease;
+}
+
+
+pot {
+    background-image: url(../img/pot.png);
+    width: 100%;
+    height: 100%;
+}
+
+body div.home2  {
+	ackground-color: red;
+	width: 100%;
+	height: 100vh;
+	background-position: relative;
+	background-attachment: fixed;
+	background-image: url(../img/cafe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body div div.home2_1 {
+	background-color: rgba(55,55,55,.8);
+	
+	margin: 0% 20% 0 20%;
+	padding: 0% 2% 2% 2%;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	min-width: 400px;
+    top: 10%;
+        
+}
+
+body div div.home2_1 p{
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	font-weight: 800;
+	color: white;
+	padding: 10px 0 0 0;
+   text-align: center;
+    ustify-content: center; 
+    lign-items: center;
+    
+}
+
+
+body div.home3 {
+	ackground-color: red;
+	width: 100%;
+	height: 60vh;
+	background-position: relative;
+	background-attachment: fixed;
+	background-image: url(../img/cafe-bw.jpg);
+    background-size: cover;
+    padding: 240px 0 0 0;
+    
+}
+
+div div.home3b p{
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	font-weight: 800;
+	color: white;
+    margin: 0;
+    
+}
+
+div div.home3b {
+	background-color: rgba(155,155,55,.5);
+	display: flex;
+	flex-wrap:wrap;
+	min-width: 400px;
+    margin: 0% 20% 0 20%;
+	padding: 0% 2% 2% 2%;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	min-width: 400px;
+    top: 5%;
+    text-align: center;
+  
+}
+
+div div.home3c {
+	background-color: rgba(205,155,5,.8);
+	flex-wrap: wrap;
+    margin: 5% 0% 0% 5%;
+	padding: 0 5%;
+	display:inline-block;
+	flex-wrap: wrap;
+	position: relative;
+	min-width: 900px;
+    border-radius: 75px 0% 0% 75px;
+    
+}
+
+div div.home3c p{
+	font-family: 'Amatic SC', cursive;
+	font-size: 50px;
+	font-weight: 800;
+	color: white;
+	text-align: right;
+    margin: 0;
+   
+    
+}
+
+body div.home3_1 {
+	background-color: orange;
+	background-image: url(../img/twiggy.jpg);
+	width: 100%;
+	height: 70vh;
+	background-position: relative;
+    background-position: center center;
+	background-repeat: no-repeat;
+    ackground-attachment: fixed;
+}
+
+.home4b h1 {
+
+color: #000;
+font-weight: 900;
+font-size: 150px;
+letter-spacing: 15px;
+}
+
+body div.home4 {
+	background-image: url(../img/roaster.jpg);
+	width: 100%;
+	height: 120vh;
+	background-position: relative;
+	background-attachment: fixed;
+    background-size: cover;
+    padding: 240px 0 0 0;
+}
+body div.home4_1 {
+	background-color: orange;
+	background-image: url(../img/guest.jpg);
+	width: 100%;
+	height: 72vh;
+	background-position: relative;
+
+    
+}
+
+div div.home4b p{
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	font-weight: 800;
+	color: #000;
+	letter-spacing: 3px;
+}
+
+div div.home4b {
+	background-color: rgba(155,155,155,.9);
+    position: relative;
+	font-size: 30px;
+	font-weight: 800;
+	padding: 0px;
+	display: inline-block;
+	flex-wrap:wrap;
+	min-width: 600px;
+    margin: -15% 10% 0 10%;
+	padding: 0% 2% 0 2%;
+	display: flex;
+	flex-wrap: wrap;
+    top: 0;
+    text-align: center;
+
+}
+
+
+body div.home5 {
+	background-color: orange;
+	background-image: url(../img/beans_bkgd_01.jpg);
+	width: 100%;
+	height: 100%;
+	height: 120vh;
+	background-position: relative;
+	background-attachment: fixed;
+}
+
+
+
+/*---cafe---*/
+
+
+body {
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.nav-content {
+    display: none;
+    position: absolute;
+    background-color: blue;
+    min-width: 160px;
+    box-shadow: 0 8px 10px 0 rgba(45,123,34,.5);
+    z-index: 1001; 
+    
+}
+
+.nav-content a {
+		padding: 15px;
+		margin: 0 15px 0 0px;
+		position: relative;
+		display: block;
+		color: white;
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 900;
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+
+.nav-content a:hover {
+    color: red;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+.navbox {
+		display: inline-block;
+        position: relative;	
+       
+       
+        
+    
+}
+
+
+.bar {
+    height: 50%;
+    width: 55px;
+    ackground-color: red;
+    margin: 4px 0 2px 0;
+   
+    
+    
+}
+
+.navbttn {
+    height: 50px;
+    color: #000;
+    padding: 10px 90px 0 0px;
+    border: none;
+    cursor: pointer;
+    background-color: #000;
+    z-index: 1000;
+    font-size: 20px;
+    margin: auto;
+     background-image: url(../img/coffee-icon3.png);
+    background-repeat: no-repeat;
+}
+
+
+.navContainer {
+	width: 100%;
+	height: 55px;
+	position: fixed;
+	background-color: #000;
+	argin: 0 10% 0 10%;
+    padding: 0;
+    display: flex;
+    lex-wrap: wrap;
+    z-index:101;
+    top: 0;
+    background-color: black;
+    
+}
+
+
+.navbox:hover .nav-content {
+    display: block;
+    
+}
+
+.navbox:hover .navbttn {
+     background-color: #000;  
+    
+}
+
+
+@media only screen and (min-width: 180px) and (max-width: 580px) {
+	h1 {
+		font-size: 20px;
+		letter-spacing: 5px;
+		transition: transform 2s;
+	}
+
+}
+
+@media only screen and (min-width: 380px) and (max-width: 580px) {
+	h1 {
+		font-size: 70px;
+		transition: transform 2s;
+		}
+	
+
+}
+
+@media only screen and (min-width: 580px) and (max-width: 780px) {
+	h1 {
+		font-size: 100px;
+		transition: transform 2s;
+		}
+	
+
+}
+
+.endTag {
+    font-family: 'Amatic SC', cursive;
+	font-size: 150px;
+	font-weight: 500;
+	color: white;
+    text-align: center;
+    margin: 0 2% 2% 0;
+    top: 300px;
+	padding: 100px 0 0 0;
+    
+    
+}
+
+.contact {
+    font-family: 'Amatic SC', cursive;
+	font-size: 35px;
+	font-weight: 500;
+	color: white;
+    text-align: center;
+    margin: 0 2% 2% 0;
+    top: 300px;
+    
+    
+    
+}
+
+div.footer {
+    width:100%;
+    height: 10%;
+    position: relative;
+    top: 10px;
+    bottom: 0; 
+    max-height: 100%;
+}
+
+div.footer div {
+    font-family: 'Amatic SC', cursive;
+	font-size: 16px;
+	font-weight: 500;
+	color: white;
+    text-align: right;
+    margin: 0 2% 2% 0;
+    min-width: 600px;
+    position: relative;
+    top: 0;
+    bottom: 0; 
+}
