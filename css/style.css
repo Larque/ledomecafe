@@ -1,4 +1,4 @@
-/*style sheet for final*/
+/*style sheet for Le Dome Cafe*/
 
 /*---universal---*/
 
@@ -10,41 +10,44 @@ ul {
 
 a {
 	text-decoration: none;
+	transition: .5s ease;
 }
 
 html {
 	margin: auto;
     padding: 0;
+    
 }
 
 #logo {
-    background-image: url(../img/logo1.png);
+    background-image: url(../img/LeDome_white-Logo.png);
     background-size: contain;
-    height: 100px;
+    height: 50px;
     width: inherit;
-    margin: 8px 0 0 15px; 
+    margin: 3px 0 0 15px;
+    
     position: relative;
-    op: 10px;
     background-repeat: no-repeat;
     z-index: 999;
+     
 }
 
 .logoName {
-    font-family: 'Lobster', cursive;
-	font-size: 25px;
+  Font-family: 'Lobster', cursive;
+	font-size: 18px;
 	color: orange;
-	letter-spacing: 10px;
-	text-align: center;
+	letter-spacing: 5px;
+	text-align: left;
 	z-index: 1003;
 	position: absolute;
 	opacity: 1; 
     height: 45px;
-    min-width: 300px;
-    width: 300px;
-   
-    top: 10px;
-    margin: 0 0 0 100px;
+    min-width: 200px;
+    width: 200px;
+    top: 15px;
+    margin: 0 0 0 90px;
     padding: 0;
+    
     
     
 }
@@ -57,15 +60,16 @@ h1 {
 	padding: 0 0 0 0;
    text-align: center;
     margin: auto;
+     
     
 }
 
 
 /*---index---*/
 
-div.name {
+/*.div.pageOpener {
 	font-family: 'Lobster', cursive;
-	font-size: 120px;
+	font-size: 12px;
 	color:  orange;
     text-shadow: 5px 7px #d7ddd1;
 	letter-spacing: 20px;
@@ -73,54 +77,72 @@ div.name {
 	z-index: 1000;
 	position: relative;
 	opacity: 0;
-	ont-family: 'Frijole', cursive;
     top: 0px;
-    background-image: url(../img/pot2.png);
-   background-repeat: no-repeat;
+    ackground-image: url(../img/pot2.png);
+    background-repeat: no-repeat;
     background-position: center center;
     height: 1020px;
     margin: 0 0 0 0;
     width: 100%;
 
-}
+}*/
+
 .container:hover .home1_1 {
-    opacity: .4;
-    background-color: red;
-    transition: 5s ease;
+    opacity: 1;
+    transition: 2s ease;
+    
 }
 
-.home1_1 div.title {
+.menu {
+   
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	font-weight: 800;
+	color: white;
+	padding: 10px 0 0 0;
+   text-align: center;
+    z-index: 9999;
+    
+}
+
+div.title {
     font-family: 'Lobster', cursive;
-	font-size: 190px;
+	font-size: 170px;
     text-align: center;
     color: orange;
-    margin: 0;
-    padding: 110px 0 0 0;
+    margin: 2% 0 0 0;
+    position: relative;
+    top: -710px;
+    line-height: 180px;
+    
+  
    
 }
 
-.container:hover div.name {
-    opacity: 1;
-    width: 100%;
-    height: 100%;
-  
+
+.subtitle {
+    font-family: 'Lobster', cursive;
+	font-size: 70px;
+    text-align: center;
+    color: orange;
+    margin: 70px 0 0 0;
+    position: relative;
+    top: -30px;
     
+   
 }
 
 
-.container:hover .overlay {
-    opacity: 1;
-  
+
+.home1_1:hover .overlay {
     height: 100%;
-    ackground-clip:border-box;
-    
+
     
 }
 
 .overlay {
     position: absolute;
-    opacity: 0;
-    ackground-image: url(../img/waterColor.jpg);
+    
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -129,65 +151,118 @@ div.name {
     left: 0;
     right: 0;
     margin: auto;
-    transition: 2s ease;
+    transition: 1s ease;
     background-position: center center;
     background-clip:border-box;
     z-index: .7;
+    
+    
+}
+
+prodtable {
+    position: relative;
+    background-color: rgba(55,55,55,.4);
+    margin: 250px 1% 0 1%;
+    width: 98%;
+    adding: 20px;
+    border: 1px #000;
+    border-collapse: collapse;
+    text-align: center;
+     
+}
+
+.div-pastry-table {
+    
+    margin: 250px 10% 0 10%;
+    width: 80%;
+    height: 100%;
+    min-height: 300px;
+    padding: 10px 10px 10px 10px;
+    min-width: 200px;
+    background-color: rgba(0,0,25,.6);
+    position: relative;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    align-content: center;
+    
 }
 
 
 
-body div.home1 {
-	background-image: url(../img/beans_bkgd_01.jpg);
+.pasttable {
+    float: left;
+    margin: auto;
+    padding: 10px 10px 0 10px;
+    
+}
+
+td {
+
+    padding: 1%;
+}
+
+.home1 {
+	ackground-image: url(../img/beans_bkgd_01.jpg);
 	position: relative;
 	width: 100%;
 	height: 100vh;
-	ackground-size: cover;
 	margin: 0;
 	padding: 0;
 	background-position: center center;
-	ackground-repeat: no-repeat;
-	background-color: red;
+	background-color: #000;
+    
 } 
 
 .home1_1 {
-	background-image: url(../img/dome.1.png), url(../img/dome1.png), url(../img/waterColor.jpg);
+	background-image: url(../img/dome.1.png), url(../img/dome1.png), url(../img/waterColor_003.png);
 	background-position: relative;
     background-position: center center;
 	background-repeat: no-repeat;
-	min-width: 600px;
-	height: 130vh;
-	margin: 50px 10% 0 10%;
-	adding: 160px;
+	
+    background-size: 70%, 70%, 80%;
+	height: 120vh;
+	margin: 30px 10% 0 10%;
 	background-color: rgba(155, 155,155, .5);
 	background-attachment: fixed;
 	text-align: center;
-	ackground-color: orange;
-    opacity: 1;
-	    transition: 5s ease;
+    opacity: .5;
+    transition: 2s ease;
+    background-color: white;
+    min-width: 200px;
+    
+    
+    
+}
+
+.home1_1:hover {
+      background-size: 60%, 30%,110%;
+    transition: 2s ease;
+    background-color: #334aaf;
+    
 }
 
 
-pot {
-    background-image: url(../img/pot.png);
-    width: 100%;
-    height: 100%;
-}
 
-body div.home2  {
-	ackground-color: red;
+
+.home2  {
 	width: 100%;
-	height: 100vh;
+	height: 250vh;
 	background-position: relative;
 	background-attachment: fixed;
 	background-image: url(../img/cafe.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+     background-color: red;
+    
+   
+        
 }
 
-body div div.home2_1 {
+ .home2_1 {
 	background-color: rgba(55,55,55,.8);
-	
 	margin: 0% 20% 0 20%;
 	padding: 0% 2% 2% 2%;
 	display: flex;
@@ -195,35 +270,34 @@ body div div.home2_1 {
 	position: relative;
 	min-width: 400px;
     top: 10%;
-        
+    position: relative;
 }
 
-body div div.home2_1 p{
+.home2_1 p {
 	font-family: 'Amatic SC', cursive;
 	font-size: 30px;
 	font-weight: 800;
 	color: white;
 	padding: 10px 0 0 0;
    text-align: center;
-    ustify-content: center; 
-    lign-items: center;
+
     
 }
 
 
-body div.home3 {
-	ackground-color: red;
+div.home3 {
 	width: 100%;
-	height: 60vh;
+	height: 190vh;
 	background-position: relative;
 	background-attachment: fixed;
 	background-image: url(../img/cafe-bw.jpg);
     background-size: cover;
-    padding: 240px 0 0 0;
+    padding: 40px 0 0 0;
+    position: relative;
     
 }
 
-div div.home3b p{
+div.home3b p {
 	font-family: 'Amatic SC', cursive;
 	font-size: 30px;
 	font-weight: 800;
@@ -232,7 +306,7 @@ div div.home3b p{
     
 }
 
-div div.home3b {
+div.home3b {
 	background-color: rgba(155,155,55,.5);
 	display: flex;
 	flex-wrap:wrap;
@@ -248,10 +322,10 @@ div div.home3b {
   
 }
 
-div div.home3c {
+.home3c {
 	background-color: rgba(205,155,5,.8);
 	flex-wrap: wrap;
-    margin: 5% 0% 0% 5%;
+    margin: 275px 0% 0% 5%;
 	padding: 0 5%;
 	display:inline-block;
 	flex-wrap: wrap;
@@ -261,7 +335,7 @@ div div.home3c {
     
 }
 
-div div.home3c p{
+.home3c p {
 	font-family: 'Amatic SC', cursive;
 	font-size: 50px;
 	font-weight: 800;
@@ -272,7 +346,7 @@ div div.home3c p{
     
 }
 
-body div.home3_1 {
+.home3_1 {
 	background-color: orange;
 	background-image: url(../img/twiggy.jpg);
 	width: 100%;
@@ -280,7 +354,6 @@ body div.home3_1 {
 	background-position: relative;
     background-position: center center;
 	background-repeat: no-repeat;
-    ackground-attachment: fixed;
 }
 
 .home4b h1 {
@@ -300,7 +373,7 @@ body div.home4 {
     background-size: cover;
     padding: 240px 0 0 0;
 }
-body div.home4_1 {
+div.home4_1 {
 	background-color: orange;
 	background-image: url(../img/guest.jpg);
 	width: 100%;
@@ -310,7 +383,7 @@ body div.home4_1 {
     
 }
 
-div div.home4b p{
+div.home4b p{
 	font-family: 'Amatic SC', cursive;
 	font-size: 30px;
 	font-weight: 800;
@@ -318,7 +391,7 @@ div div.home4b p{
 	letter-spacing: 3px;
 }
 
-div div.home4b {
+div.home4b {
 	background-color: rgba(155,155,155,.9);
     position: relative;
 	font-size: 30px;
@@ -337,14 +410,21 @@ div div.home4b {
 }
 
 
-body div.home5 {
-	background-color: orange;
+.home5 {
+	background-color: red;
 	background-image: url(../img/beans_bkgd_01.jpg);
 	width: 100%;
 	height: 100%;
-	height: 120vh;
 	background-position: relative;
 	background-attachment: fixed;
+    background-image: url(../img/beans_bkgd_01.jpg);
+	width: 100%;
+	height: 120vh;
+	margin: 0;
+	padding: 0;
+	background-position: center center;
+	background-color: red;
+    
 }
 
 
@@ -362,19 +442,29 @@ body {
 .nav-content {
     display: none;
     position: absolute;
-    background-color: blue;
     min-width: 160px;
-    box-shadow: 0 8px 10px 0 rgba(45,123,34,.5);
+    box-shadow: 0 8px 10px 0 rgba(5,23,34,.5);
     z-index: 1001; 
+	transition: .5s ease;
+	margin: 0 100px 0 0;
+	padding: 0 10px 0 0;
     
 }
 
+
+
+
+.nav-content:hover div a {
+    margin: 0 100px 0 0;
+}
+
+
+
 .nav-content a {
-		padding: 15px;
-		margin: 0 15px 0 0px;
-		position: relative;
-		display: block;
-		color: white;
+    padding: 15px;
+    margin: 0 15px 0 0;
+    position: relative;
+    display: inline-block;
     text-decoration: none;
     color: black;
     background-color: orange;
@@ -382,6 +472,9 @@ body {
     font-weight: 900;
     font-size: 24px;
     letter-spacing: 4px;
+	transition: .5s ease;
+    width: 100px;
+	
 }
 
 .nav-content a:hover {
@@ -389,15 +482,21 @@ body {
     padding: 15px;
     text-decoration: none;
     display: block;
+    background-color: #060611;
 }
 
+.nav-content a:active {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    border: solid 2px black;
+    background-color: #a70611;
+}
 
 
 .navbox {
 		display: inline-block;
-        position: relative;	
-       
-       
         
     
 }
@@ -405,26 +504,26 @@ body {
 
 .bar {
     height: 50%;
-    width: 55px;
-    ackground-color: red;
+    width: 65px;
     margin: 4px 0 2px 0;
-   
-    
-    
+
 }
 
 .navbttn {
     height: 50px;
     color: #000;
-    padding: 10px 90px 0 0px;
     border: none;
     cursor: pointer;
-    background-color: #000;
+    background-color: rgba(155,155,155, .0);
     z-index: 1000;
     font-size: 20px;
-    margin: auto;
-     background-image: url(../img/coffee-icon3.png);
+     background-image: url(../img/coffeecup01_small3.png);
     background-repeat: no-repeat;
+    margin: 0 60px 0 60%;
+	top:10px;
+    position: relative;
+    
+	
 }
 
 
@@ -433,15 +532,15 @@ body {
 	height: 55px;
 	position: fixed;
 	background-color: #000;
-	argin: 0 10% 0 10%;
     padding: 0;
     display: flex;
-    lex-wrap: wrap;
-    z-index:101;
+    z-index:99999;
     top: 0;
     background-color: black;
     
+    
 }
+
 
 
 .navbox:hover .nav-content {
@@ -449,38 +548,7 @@ body {
     
 }
 
-.navbox:hover .navbttn {
-     background-color: #000;  
-    
-}
 
-
-@media only screen and (min-width: 180px) and (max-width: 580px) {
-	h1 {
-		font-size: 20px;
-		letter-spacing: 5px;
-		transition: transform 2s;
-	}
-
-}
-
-@media only screen and (min-width: 380px) and (max-width: 580px) {
-	h1 {
-		font-size: 70px;
-		transition: transform 2s;
-		}
-	
-
-}
-
-@media only screen and (min-width: 580px) and (max-width: 780px) {
-	h1 {
-		font-size: 100px;
-		transition: transform 2s;
-		}
-	
-
-}
 
 .endTag {
     font-family: 'Amatic SC', cursive;
@@ -528,4 +596,67 @@ div.footer div {
     position: relative;
     top: 0;
     bottom: 0; 
+}
+
+
+
+
+
+@media only screen and (min-width: 180px) and (max-width: 580px) {
+	
+div.title {
+	font-size: 110px;
+   margin: 5% 0 0 0;
+    line-height: 140px;
+        }
+.subtitle {
+	font-size: 40px;
+    top: -80px;
+    }
+ .home2_1 {
+	margin: 0% 5% 0 5%;	
+	min-width: 300px;
+ 
+    }
+.logoName {
+    font-size: 15px;
+    top: 20px;
+  
+    }
+.div-pastry-table {
+    
+    }
+    
+.pasttable img {
+    width: 160px;
+    
+    }
+.div-pastry-table {
+    margin: 250px 5% 0 5%;
+    width: 90%;
+    height: 100%;
+    min-height: 300px;
+    padding: 0px;
+    min-width: 100px;
+    }
+
+    
+}
+
+@media only screen and (min-width: 380px) and (max-width: 580px) {
+	h1 {
+		font-size: 70px;
+		transition: transform 2s;
+		}
+	
+
+}
+
+@media only screen and (min-width: 580px) and (max-width: 780px) {
+	h1 {
+		font-size: 100px;
+		transition: transform 2s;
+		}
+	
+
 }
