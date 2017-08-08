@@ -67,25 +67,7 @@ h1 {
 
 /*---index---*/
 
-/*.div.pageOpener {
-	font-family: 'Lobster', cursive;
-	font-size: 12px;
-	color:  orange;
-    text-shadow: 5px 7px #d7ddd1;
-	letter-spacing: 20px;
-	text-align: center;
-	z-index: 1000;
-	position: relative;
-	opacity: 0;
-    top: 0px;
-    ackground-image: url(../img/pot2.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 1020px;
-    margin: 0 0 0 0;
-    width: 100%;
 
-}*/
 
 .container:hover .home1_1 {
     opacity: 1;
@@ -205,7 +187,7 @@ td {
 }
 
 .home1 {
-	ackground-image: url(../img/beans_bkgd_01.jpg);
+	ackground-image: url(https://user-images.githubusercontent.com/7917600/29050816-4bc76094-7b93-11e7-8679-489c0ba90833.jpg);
 	position: relative;
 	width: 100%;
 	height: 100vh;
@@ -217,7 +199,7 @@ td {
 } 
 
 .home1_1 {
-	background-image: url(../img/dome.1.png), url(../img/dome1.png), url(../img/waterColor_003.png);
+	background-image: url(https://user-images.githubusercontent.com/7917600/29050822-54f7c046-7b93-11e7-96fa-08e5a90983ff.png), url(https://user-images.githubusercontent.com/7917600/29050821-54f5d75e-7b93-11e7-938b-d37fe89c281e.png), url(https://user-images.githubusercontent.com/7917600/29050835-632c93e4-7b93-11e7-94f0-e4d281f459f1.png);
 	background-position: relative;
     background-position: center center;
 	background-repeat: no-repeat;
@@ -252,7 +234,7 @@ td {
 	height: 250vh;
 	background-position: relative;
 	background-attachment: fixed;
-	background-image: url(../img/cafe.jpg);
+	background-image: url(https://user-images.githubusercontent.com/7917600/29050797-35c1ee68-7b93-11e7-9974-2b9d06fde150.jpg);
     background-size: cover;
     background-repeat: no-repeat;
      background-color: red;
@@ -290,7 +272,7 @@ div.home3 {
 	height: 190vh;
 	background-position: relative;
 	background-attachment: fixed;
-	background-image: url(../img/cafe-bw.jpg);
+	background-image: url(https://user-images.githubusercontent.com/7917600/29050798-35c30de8-7b93-11e7-9127-0daea7dba05f.jpg);
     background-size: cover;
     padding: 40px 0 0 0;
     position: relative;
@@ -348,7 +330,7 @@ div.home3b {
 
 .home3_1 {
 	background-color: orange;
-	background-image: url(../img/twiggy.jpg);
+	background-image: url(https://user-images.githubusercontent.com/7917600/29050810-467d0eae-7b93-11e7-98af-dba072fae76f.jpg);
 	width: 100%;
 	height: 70vh;
 	background-position: relative;
@@ -365,7 +347,7 @@ letter-spacing: 15px;
 }
 
 body div.home4 {
-	background-image: url(../img/roaster.jpg);
+	background-image: url(https://user-images.githubusercontent.com/7917600/29050811-467d8960-7b93-11e7-8d15-12296efbf5fd.jpg);
 	width: 100%;
 	height: 120vh;
 	background-position: relative;
@@ -375,7 +357,7 @@ body div.home4 {
 }
 div.home4_1 {
 	background-color: orange;
-	background-image: url(../img/guest.jpg);
+	background-image: url(https://user-images.githubusercontent.com/7917600/29050809-467cba76-7b93-11e7-865b-739223e4bf3e.jpg);
 	width: 100%;
 	height: 72vh;
 	background-position: relative;
@@ -412,12 +394,12 @@ div.home4b {
 
 .home5 {
 	background-color: red;
-	background-image: url(../img/beans_bkgd_01.jpg);
+	background-image: url(https://user-images.githubusercontent.com/7917600/29050816-4bc76094-7b93-11e7-8679-489c0ba90833.jpg);
 	width: 100%;
 	height: 100%;
 	background-position: relative;
 	background-attachment: fixed;
-    background-image: url(../img/beans_bkgd_01.jpg);
+    background-image: url(https://user-images.githubusercontent.com/7917600/29050816-4bc76094-7b93-11e7-8679-489c0ba90833.jpg);
 	width: 100%;
 	height: 120vh;
 	margin: 0;
@@ -517,7 +499,7 @@ body {
     background-color: rgba(155,155,155, .0);
     z-index: 1000;
     font-size: 20px;
-     background-image: url(../img/coffeecup01_small3.png);
+     background-image: url(https://user-images.githubusercontent.com/7917600/29050796-35ac5e9a-7b93-11e7-823c-d45ff9f325ed.png);
     background-repeat: no-repeat;
     margin: 0 60px 0 60%;
 	top:10px;
