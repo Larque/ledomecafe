@@ -16,7 +16,7 @@ a {
 html {
 	margin: auto;
     padding: 0;
-    
+
 }
 
 #logo {
@@ -25,11 +25,11 @@ html {
     height: 50px;
     width: inherit;
     margin: 3px 0 0 15px;
-    
+
     position: relative;
     background-repeat: no-repeat;
     z-index: 999;
-     
+
 }
 
 .logoName {
@@ -40,16 +40,16 @@ html {
 	text-align: left;
 	z-index: 1003;
 	position: absolute;
-	opacity: 1; 
+	opacity: 1;
     height: 45px;
     min-width: 200px;
     width: 200px;
     top: 15px;
     margin: 0 0 0 90px;
     padding: 0;
-    
-    
-    
+
+
+
 }
 
 h1 {
@@ -60,8 +60,8 @@ h1 {
 	padding: 0 0 0 0;
    text-align: center;
     margin: auto;
-     
-    
+
+
 }
 
 
@@ -72,11 +72,11 @@ h1 {
 .container:hover .home1_1 {
     opacity: 1;
     transition: 2s ease;
-    
+
 }
 
 .menu {
-   
+
 	font-family: 'Amatic SC', cursive;
 	font-size: 30px;
 	font-weight: 800;
@@ -84,7 +84,7 @@ h1 {
 	padding: 10px 0 0 0;
    text-align: center;
     z-index: 9999;
-    
+
 }
 
 div.title {
@@ -96,9 +96,9 @@ div.title {
     position: relative;
     top: -710px;
     line-height: 180px;
-    
-  
-   
+
+
+
 }
 
 
@@ -110,8 +110,8 @@ div.title {
     margin: 70px 0 0 0;
     position: relative;
     top: -30px;
-    
-   
+
+
 }
 
 
@@ -119,12 +119,12 @@ div.title {
 .home1_1:hover .overlay {
     height: 100%;
 
-    
+
 }
 
 .overlay {
     position: absolute;
-    
+
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -137,8 +137,8 @@ div.title {
     background-position: center center;
     background-clip:border-box;
     z-index: .7;
-    
-    
+
+
 }
 
 prodtable {
@@ -150,17 +150,18 @@ prodtable {
     border: 1px #000;
     border-collapse: collapse;
     text-align: center;
-     
+
 }
 
 .div-pastry-table {
-    
+
     margin: 250px 10% 0 10%;
     width: 80%;
     height: 100%;
     min-height: 300px;
     padding: 10px 10px 10px 10px;
     min-width: 200px;
+		max-width: 1000px;
     background-color: rgba(0,0,25,.6);
     position: relative;
     display: -webkit-flex;
@@ -169,7 +170,7 @@ prodtable {
     flex-wrap: wrap;
     -webkit-align-content: center;
     align-content: center;
-    
+
 }
 
 
@@ -178,7 +179,7 @@ prodtable {
     float: left;
     margin: auto;
     padding: 10px 10px 0 10px;
-    
+
 }
 
 td {
@@ -195,15 +196,15 @@ td {
 	padding: 0;
 	background-position: center center;
 	background-color: #000;
-    
-} 
+
+}
 
 .home1_1 {
 	background-image: url(https://user-images.githubusercontent.com/7917600/29050822-54f7c046-7b93-11e7-96fa-08e5a90983ff.png), url(https://user-images.githubusercontent.com/7917600/29050821-54f5d75e-7b93-11e7-938b-d37fe89c281e.png), url(https://user-images.githubusercontent.com/7917600/29050835-632c93e4-7b93-11e7-94f0-e4d281f459f1.png);
 	background-position: relative;
     background-position: center center;
 	background-repeat: no-repeat;
-	
+
     background-size: 70%, 70%, 80%;
 	height: 120vh;
 	margin: 30px 10% 0 10%;
@@ -214,16 +215,16 @@ td {
     transition: 2s ease;
     background-color: white;
     min-width: 200px;
-    
-    
-    
+
+
+
 }
 
 .home1_1:hover {
       background-size: 60%, 30%,110%;
     transition: 2s ease;
     background-color: #334aaf;
-    
+
 }
 
 
@@ -238,9 +239,9 @@ td {
     background-size: cover;
     background-repeat: no-repeat;
      background-color: red;
-    
-   
-        
+
+
+
 }
 
  .home2_1 {
@@ -263,7 +264,7 @@ td {
 	padding: 10px 0 0 0;
    text-align: center;
 
-    
+
 }
 
 
@@ -276,7 +277,7 @@ div.home3 {
     background-size: cover;
     padding: 40px 0 0 0;
     position: relative;
-    
+
 }
 
 div.home3b p {
@@ -285,7 +286,7 @@ div.home3b p {
 	font-weight: 800;
 	color: white;
     margin: 0;
-    
+
 }
 
 div.home3b {
@@ -301,7 +302,7 @@ div.home3b {
 	min-width: 400px;
     top: 5%;
     text-align: center;
-  
+
 }
 
 .home3c {
@@ -314,7 +315,7 @@ div.home3b {
 	position: relative;
 	min-width: 900px;
     border-radius: 75px 0% 0% 75px;
-    
+
 }
 
 .home3c p {
@@ -324,8 +325,8 @@ div.home3b {
 	color: white;
 	text-align: right;
     margin: 0;
-   
-    
+
+
 }
 
 .home3_1 {
@@ -362,7 +363,7 @@ div.home4_1 {
 	height: 72vh;
 	background-position: relative;
 
-    
+
 }
 
 div.home4b p{
@@ -406,7 +407,7 @@ div.home4b {
 	padding: 0;
 	background-position: center center;
 	background-color: red;
-    
+
 }
 
 
@@ -426,11 +427,11 @@ body {
     position: absolute;
     min-width: 160px;
     box-shadow: 0 8px 10px 0 rgba(5,23,34,.5);
-    z-index: 1001; 
+    z-index: 1001;
 	transition: .5s ease;
 	margin: 0 100px 0 0;
 	padding: 0 10px 0 0;
-    
+
 }
 
 
@@ -456,7 +457,7 @@ body {
     letter-spacing: 4px;
 	transition: .5s ease;
     width: 100px;
-	
+
 }
 
 .nav-content a:hover {
@@ -479,8 +480,8 @@ body {
 
 .navbox {
 		display: inline-block;
-        
-    
+
+
 }
 
 
@@ -504,8 +505,8 @@ body {
     margin: 0 60px 0 60%;
 	top:10px;
     position: relative;
-    
-	
+
+
 }
 
 
@@ -519,15 +520,15 @@ body {
     z-index:99999;
     top: 0;
     background-color: black;
-    
-    
+
+
 }
 
 
 
 .navbox:hover .nav-content {
     display: block;
-    
+
 }
 
 
@@ -541,8 +542,8 @@ body {
     margin: 0 2% 2% 0;
     top: 300px;
 	padding: 100px 0 0 0;
-    
-    
+
+
 }
 
 .contact {
@@ -553,9 +554,9 @@ body {
     text-align: center;
     margin: 0 2% 2% 0;
     top: 300px;
-    
-    
-    
+
+
+
 }
 
 div.footer {
@@ -563,7 +564,7 @@ div.footer {
     height: 10%;
     position: relative;
     top: 10px;
-    bottom: 0; 
+    bottom: 0;
     max-height: 100%;
 }
 
@@ -577,7 +578,7 @@ div.footer div {
     min-width: 600px;
     position: relative;
     top: 0;
-    bottom: 0; 
+    bottom: 0;
 }
 
 
@@ -585,7 +586,7 @@ div.footer div {
 
 
 @media only screen and (min-width: 180px) and (max-width: 580px) {
-	
+
 div.title {
 	font-size: 110px;
    margin: 5% 0 0 0;
@@ -596,22 +597,22 @@ div.title {
     top: -80px;
     }
  .home2_1 {
-	margin: 0% 5% 0 5%;	
+	margin: 0% 5% 0 5%;
 	min-width: 300px;
- 
+
     }
 .logoName {
     font-size: 15px;
     top: 20px;
-  
+
     }
 .div-pastry-table {
-    
+
     }
-    
+
 .pasttable img {
     width: 160px;
-    
+
     }
 .div-pastry-table {
     margin: 250px 5% 0 5%;
@@ -622,7 +623,7 @@ div.title {
     min-width: 100px;
     }
 
-    
+
 }
 
 @media only screen and (min-width: 380px) and (max-width: 580px) {
@@ -630,7 +631,7 @@ div.title {
 		font-size: 70px;
 		transition: transform 2s;
 		}
-	
+
 
 }
 
@@ -639,6 +640,6 @@ div.title {
 		font-size: 100px;
 		transition: transform 2s;
 		}
-	
+
 
 }
