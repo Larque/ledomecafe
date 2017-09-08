@@ -192,7 +192,7 @@ td {
 	position: relative;
 	width: 100%;
 	height: 100vh;
-	margin: 0;
+	margin: -30px 0 0 0;
 	padding: 0;
 	background-position: center center;
 	background-color: #000;
@@ -204,7 +204,6 @@ td {
 	background-position: relative;
     background-position: center center;
 	background-repeat: no-repeat;
-
     background-size: 70%, 70%, 80%;
 	height: 120vh;
 	margin: 30px 10% 0 10%;
@@ -589,12 +588,14 @@ div.footer div {
 
 div.title {
 	font-size: 110px;
-   margin: 5% 0 0 0;
+   margin: auto;
     line-height: 140px;
+		position: fixed;
         }
 .subtitle {
 	font-size: 40px;
     top: -80px;
+		position: fixed;
     }
  .home2_1 {
 	margin: 0% 5% 0 5%;
