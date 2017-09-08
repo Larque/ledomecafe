@@ -155,13 +155,13 @@ prodtable {
 
 .div-pastry-table {
 
-    margin: 250px 10% 0 10%;
-    width: 80%;
+    margin: 250px 20% 0 20%;
+    idth: 80%;
     height: 100%;
     min-height: 300px;
     padding: 10px 10px 10px 10px;
     min-width: 200px;
-		max-width: 1000px;
+		ax-width: 50%;
     background-color: rgba(0,0,25,.6);
     position: relative;
     display: -webkit-flex;
